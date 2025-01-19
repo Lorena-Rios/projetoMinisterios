@@ -190,21 +190,21 @@ body{
     background-color: #255971;
     overflow: hidden;
     max-width: 1200px;
-    height: 500px;
+    height: 78vh;
     color: #F1F6F9;
   }
 
-  .image-placeholder1 {
-    width: 750px;
-    height: 450px;
+  .image-placeholder {
+    margin-left: 60px;
+    width: 45vw;
+    height: 65vh;
     border-radius: 20px;
-    background-image: url('img/DSCN8420.JPG'); /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: center;
   }
 
   .content {
-    margin-left: 30px;
+    margin-left: 25px;
     padding: 20px;
     width: 40%;
   }
