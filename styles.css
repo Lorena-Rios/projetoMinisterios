@@ -52,7 +52,6 @@ body{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-
     margin-right: 10px;
 }
 
@@ -108,7 +107,7 @@ body{
 /* Quote */
 
 .quote {
-    background-color: #255971; /* Fundo azul */
+    background-color: #255971;
     height: 198px;
     display: flex;
     justify-content: center;
@@ -228,6 +227,95 @@ body{
     margin-bottom: 10px;
   }
 
+  /* Botão */
+
+  .botao-section {
+    margin-top: 50px;
+    height: 198px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.botao-text {
+    color: #000000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    max-width: 1000px; 
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.botao-btn {
+    border: 2px solid #255971;
+    background-color: #F9F9F9;
+    color: #000000;
+    border-radius: 40px;
+    height: 40px;
+    width: 220px;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+/* Pé da página */
+.footer {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    height: 100px;
+}
+
+.footer-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 2px;
+    background-color: #B0B0B0; 
+    opacity: 0.50;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+}
+
+.footer-text {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.footer-text p {
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+    opacity: 0.8;
+}
+
+    
+
+    
+
+
 @media (max-width: 430px) {
     
 
@@ -279,6 +367,8 @@ body{
     /* Banner */
     .banner {
         height: 180px;
+        padding: 0px;
+        margin: 0px;
     }
 
     .banner-text h2 {
@@ -288,12 +378,14 @@ body{
 
     /* Quote */
     .quote {
-        background-color: #255971; /* Fundo azul */
+        background-color: #255971; 
         height: 110px;
-
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .quote-text {
+        margin-top: 15px;
         color: #F1F6F9;
         font-size: 12px;
         max-width: 1000px; 
@@ -314,6 +406,11 @@ body{
 
 
     /* Caroussel */
+    .carousel{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     #carouselExampleIndicators {
         width: 100%;
         height: 555px; 
@@ -325,19 +422,22 @@ body{
         font-size: 20px;
         font-weight: bold;
     }
-
     .main-content {
         flex-direction: column;
         height: auto;
-        padding: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
     
-    .image-placeholder1 {
-        width: 80%;
+    .image-placeholder {
+        width: 300px;
         height: 180px;
+        max-height: 180px;
         margin-bottom: 20px;
+        border-radius: 10px;
+        margin-left: 0px;
     }
-    
     .content {
         margin-left: 0;
         width: 100%;
@@ -359,5 +459,44 @@ body{
     .carousel-indicators {
         bottom: -10px; /
       }
+
+    /* Botão */
+
+    .botao-section {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .botao-text{
+        font-size: 14px;
+    }
+
+    .botao-btn {
+        height: 35px;
+        width: 180px;
+        font-size: 14px;
+    }
+
+    /* Pé da página */
+.footer {
+    padding: 20px 20px;
+
+}
+
+.footer-line {
+
+    height: 1px;
+ 
+}
+.logo {
+    width: 115px;
+}
+
+
+.footer-text p {
+    font-size: 8px;
+
+}
 
 }
