@@ -313,14 +313,16 @@ body{
 }
 
 @media (min-width: 1650px) {
-s
+
+    .main-content{
+        max-width: 1500px;
+    }
+
     .image-placeholder {
       margin-left: 0;
     }
 
-    .content p{
-        max-width: 3000px;
-      }
+
   }
 
 @media (max-width: 900px){
