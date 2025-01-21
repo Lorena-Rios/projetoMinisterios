@@ -197,14 +197,14 @@ body{
     margin-left: 4.52vw;
     width: 45vw;
     height: 65vh;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     background-size: cover;
     background-position: center;
   }
 
   .content {
-    margin-left: 25px;
-    padding: 20px;
+    margin-left: 1.88vw;
+    padding: 1.5vw;
     width: 40%;
   }
 
@@ -312,7 +312,7 @@ body{
     opacity: 0.8;
 }
 
-    
+
 
 @media (max-width: 900px){
 
@@ -367,7 +367,6 @@ body{
     .content .minister {
         font-size: 14px;
     }
-
 
 }
 
@@ -555,4 +554,52 @@ body{
 
     }
 
+}
+
+
+@media (max-width: 370px){
+    /* Navigation */
+    .navbar {
+        padding: 0px 0px;
+        height: 68px;
+    }
+    
+    .navbar-logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar-logo img {
+        height: 45px;
+        margin-right: 4px;
+        margin-bottom: 10px;
+    }
+    
+    .navbar-actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-left: 5px;
+    }
+    
+    .btn {
+        border-radius: 11.5px;
+        height: 25px;
+        width: 90px;
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    
+    .social-icons a {
+        margin: 0 1.4px;
+        padding-right: 6.9px;
+        padding-left: 0px;
+    
+    }
+    
+    .social-icons img {
+        height: 10px;
+        width: 12px;
+    }
+    
 }
