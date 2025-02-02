@@ -4,7 +4,7 @@
 
 :root {
   /* Cores principais */
-  --color-primary: #2389ef;
+  --color-primary: #266481;
   --color-secondary: #edf2f4;
   --color-text: #2b2d42;
   --color-text-light: #7c7c7c;
@@ -16,6 +16,8 @@
   --spacing-sm: 0.7rem;
   --spacing-md: 1.5rem;
   --spacing-lg: 2rem;
+
+
 
   /* Bordas */
   --border-radius: 10px;
