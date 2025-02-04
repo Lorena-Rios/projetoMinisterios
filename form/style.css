@@ -193,6 +193,22 @@ body {
 }
 
 
+@media (max-width: 900px) {
+  /* Ajustes para telas menores que 900px */
+  .form-container {
+    padding: var(--spacing-sm);
+  }
+
+  .checkbox-group {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .checkbox-label {
+    font-size: 0.8rem;
+  }
+}
+
+
 /* Responsividade */
 @media (max-width: 768px) {
   .form-container {
@@ -205,5 +221,40 @@ body {
 
   .checkbox-label {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 430px) {
+  /* Ajustes para telas menores que 430px */
+  .banner {
+    height: 150px;
+  }
+
+  .form-section {
+    padding: var(--spacing-sm);
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .form-input,
+  .checkbox-label {
+    font-size: 0.8rem;
+  }
+
+  .submit-button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 370px) {
+  /* Ajustes para telas menores que 370px */
+  .checkbox-group {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+
+  .checkbox-label {
+    font-size: 0.7rem;
   }
 }
