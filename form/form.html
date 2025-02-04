@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Favicon para tema claro -->
-    <link rel="shortcut icon" type="imagex/png" href="../img/logo pib_preta 2.svg" media="(prefers-color-scheme: light)">
-    
+    <link rel="shortcut icon" type="imagex/png" href="../img/logo pib_preta 2.svg" media="(prefers-color-scheme: light)" />
+
     <!-- Favicon para tema escuro -->
-    <link rel="shortcut icon" type="imagex/png" href="../img/logo pib_branca 1.svg" media="(prefers-color-scheme: dark)">
-        
-
-
+    <link rel="shortcut icon" type="imagex/png" href="../img/logo pib_branca 1.svg" media="(prefers-color-scheme: dark)" />
   </head>
   <body>
     <div class="banner"></div>
@@ -24,9 +21,8 @@
         <section class="form-section personal-info">
           <h1 class="section-title">Eu quero servir!</h1>
 
-          <p>Estamos felizes por seu interesse em servir nos ministérios de nossa igreja!
-            Inscreva-se e contribua com seus dons e talentos.</p>
-          <br>
+          <p>Estamos felizes por seu interesse em servir nos ministérios de nossa igreja! Inscreva-se e contribua com seus dons e talentos.</p>
+          <br />
           <div class="form-group">
             <label for="fullName" class="form-label">Seu Nome</label>
             <input type="text" id="fullName" name="fullName" class="form-input" placeholder="Seu Nome Completo" />
@@ -41,13 +37,28 @@
             <p class="form-label">Quais dessas habilidades você tem afinidade?</p>
             <div class="checkbox-group skills-group">
               <div class="checkbox-item">
-                <input type="checkbox" id="design" name="skills" value="design" class="form-checkbox" />
-                <label for="design" class="checkbox-label">Design</label>
+                <input type="checkbox" id="graphic-design" name="skills" value="graphic-design" class="form-checkbox" />
+                <label for="graphic-design" class="checkbox-label">Design Gráfico</label>
               </div>
 
               <div class="checkbox-item">
-                <input type="checkbox" id="accounting" name="skills" value="accounting" class="form-checkbox" />
-                <label for="accounting" class="checkbox-label">Contabilidade</label>
+                <input type="checkbox" id="photography" name="skills" value="photography" class="form-checkbox" />
+                <label for="photography" class="checkbox-label">Fotografia</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="video-editing" name="skills" value="video-editing" class="form-checkbox" />
+                <label for="video-editing" class="checkbox-label">Filmagem e Edição de Vídeo</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="social-media" name="skills" value="social-media" class="form-checkbox" />
+                <label for="social-media" class="checkbox-label">Gerenciamento de Redes Sociais</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="programming" name="skills" value="programming" class="form-checkbox" />
+                <label for="programming" class="checkbox-label">Programação/Desenvolvimento Web</label>
               </div>
 
               <div class="checkbox-item">
@@ -61,11 +72,6 @@
               </div>
 
               <div class="checkbox-item">
-                <input type="checkbox" id="singing" name="skills" value="singing" class="form-checkbox" />
-                <label for="singing" class="checkbox-label">Canto</label>
-              </div>
-
-              <div class="checkbox-item">
                 <input type="checkbox" id="instrument" name="skills" value="instrument" class="form-checkbox" />
                 <label for="instrument" class="checkbox-label">Toco um instrumento</label>
               </div>
@@ -76,39 +82,150 @@
               </div>
 
               <div class="checkbox-item">
-                <input type="checkbox" id="programming" name="skills" value="programming" class="form-checkbox" />
-                <label for="programming" class="checkbox-label">Programação</label>
+                <input type="checkbox" id="accounting" name="skills" value="accounting" class="form-checkbox" />
+                <label for="accounting" class="checkbox-label">Contabilidade</label>
+              </div>
+
+              <!-- Comunicação e Mídias -->
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="voice-over" name="skills" value="voice-over" class="form-checkbox" />
+                <label for="voice-over" class="checkbox-label">Locução/Narração</label>
               </div>
 
               <div class="checkbox-item">
-                <input type="checkbox" id="photography" name="skills" value="photography" class="form-checkbox" />
-                <label for="photography" class="checkbox-label">Fotografia</label>
+                <input type="checkbox" id="translation" name="skills" value="translation" class="form-checkbox" />
+                <label for="translation" class="checkbox-label">Tradução/Interpretação</label>
+              </div>
+
+              <!-- Música e Artes -->
+              <div class="checkbox-item">
+                <input type="checkbox" id="singing" name="skills" value="singing" class="form-checkbox" />
+                <label for="singing" class="checkbox-label">Vocal/Canto</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="music-production" name="skills" value="music-production" class="form-checkbox" />
+                <label for="music-production" class="checkbox-label">Produção Musical</label>
               </div>
 
               <div class="checkbox-item">
                 <input type="checkbox" id="drawing" name="skills" value="drawing" class="form-checkbox" />
-                <label for="drawing" class="checkbox-label">Desenho</label>
+                <label for="drawing" class="checkbox-label">Desenho/Ilustração</label>
+              </div>
+
+              <!-- Tecnologia -->
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="tech-support" name="skills" value="tech-support" class="form-checkbox" />
+                <label for="tech-support" class="checkbox-label">Suporte Técnico em Informática</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="sound-operation" name="skills" value="sound-operation" class="form-checkbox" />
+                <label for="sound-operation" class="checkbox-label">Operação de Som</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="projection" name="skills" value="projection" class="form-checkbox" />
+                <label for="projection" class="checkbox-label">Operação de Projeção/Slides</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="streaming" name="skills" value="streaming" class="form-checkbox" />
+                <label for="streaming" class="checkbox-label">Transmissão Online/Streaming</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="audio-editing" name="skills" value="audio-editing" class="form-checkbox" />
+                <label for="audio-editing" class="checkbox-label">Edição de Áudio</label>
+              </div>
+
+              <!-- Ensino e Mentoria -->
+              <div class="checkbox-item">
+                <input type="checkbox" id="children-teaching" name="skills" value="children-teaching" class="form-checkbox" />
+                <label for="children-teaching" class="checkbox-label">Ensino para Crianças</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="teen-teaching" name="skills" value="teen-teaching" class="form-checkbox" />
+                <label for="teen-teaching" class="checkbox-label">Ensino para Adolescentes</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="youth-teaching" name="skills" value="youth-teaching" class="form-checkbox" />
+                <label for="youth-teaching" class="checkbox-label">Ensino para Jovens</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="adult-teaching" name="skills" value="adult-teaching" class="form-checkbox" />
+                <label for="adult-teaching" class="checkbox-label">Ensino para Adultos</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="elderly-teaching" name="skills" value="elderly-teaching" class="form-checkbox" />
+                <label for="elderly-teaching" class="checkbox-label">Ensino para Idosos</label>
+              </div>
+
+              <!-- Administração e Organização -->
+              <div class="checkbox-item">
+                <input type="checkbox" id="project-management" name="skills" value="project-management" class="form-checkbox" />
+                <label for="project-management" class="checkbox-label">Gestão de Projetos</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="event-organization" name="skills" value="event-organization" class="form-checkbox" />
+                <label for="event-organization" class="checkbox-label">Organização de Eventos</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="accounting" name="skills" value="accounting" class="form-checkbox" />
+                <label for="accounting" class="checkbox-label">Contabilidade</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="financial-management" name="skills" value="financial-management" class="form-checkbox" />
+                <label for="financial-management" class="checkbox-label">Gestão Financeira</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="psychology" name="skills" value="psychology" class="form-checkbox" />
+                <label for="psychology" class="checkbox-label">Psicologia</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="nursing" name="skills" value="nursing" class="form-checkbox" />
+                <label for="nursing" class="checkbox-label">Enfermagem</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="first-aid" name="skills" value="first-aid" class="form-checkbox" />
+                <label for="first-aid" class="checkbox-label">Primeiros Socorros</label>
               </div>
             </div>
           </div>
-          
+
           <div class="form-group">
             <label for="work" class="form-label">Você está atualmente no mercado de trabalho? Se sim, qual a sua área de atuação?</label>
             <input type="text" id="work" name="work" class="form-input" placeholder="Ex: Professor, Engenheiro, Designer Gráfico..." />
           </div>
 
           <div class="form-group">
-            <label for="skills" class="form-label">Conte-nos um pouco sobre suas habilidades, talentos ou experiências que possam contribuir para o ministério em que deseja participar. Queremos que você sirva na área em que se sente mais preparado e confortável!</label>
+            <label for="skills" class="form-label"
+              >Conte-nos um pouco sobre suas habilidades, talentos ou experiências que possam contribuir para o ministério em que deseja participar.
+              Queremos que você sirva na área em que se sente mais preparado e confortável!</label
+            >
             <input type="text" id="skills" name="skills" class="form-input" placeholder="" />
           </div>
-
         </section>
 
         <!-- Seção Ministérios -->
         <section class="form-section ministries">
           <h2 class="section-title">Ministérios</h2>
-          <p>Após ler o conteúdo de nossa página, selecione abaixo os ministérios em que deseja servir. Sua participação será uma bênção para nossa comunidade!  </p>
-          <br>
+          <p>
+            Após ler o conteúdo de nossa página, selecione abaixo os ministérios em que deseja servir. Sua participação será uma bênção para nossa
+            comunidade!
+          </p>
+          <br />
 
           <div class="form-group">
             <p class="form-label">Lista de ministérios</p>
@@ -176,7 +293,10 @@
           </div>
         </section>
 
-        <p id="aviso">Atenção! Não se preocupe! Os dados fornecidos neste formulário serão utilizados exclusivamente para fins internos e organizacionais, respeitando sua privacidade.  </p>
+        <p id="aviso">
+          Atenção! Não se preocupe! Os dados fornecidos neste formulário serão utilizados exclusivamente para fins internos e organizacionais,
+          respeitando sua privacidade.
+        </p>
 
         <button type="submit" class="submit-button">Enviar</button>
       </form>
