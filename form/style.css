@@ -41,6 +41,8 @@ body {
   padding: var(--spacing-md);
 }
 
+
+
 .spacing-h {
   height: 20px;
 }
@@ -81,13 +83,14 @@ body {
 
 .form-section {
   padding: var(--spacing-md);
-  border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+ 
 }
 
 .section-title {
   color: var(--color-primary);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
   font-size: 1.5rem;
 }
 
@@ -116,6 +119,10 @@ body {
   border-color: var(--color-primary);
 }
 
+.form-input::placeholder{
+  font-family: "Poppins", serif;
+  font-size: 0.9rem;
+}
 /* Estilização dos checkboxes como grid de botões */
 .checkbox-group {
   /* display: grid;
