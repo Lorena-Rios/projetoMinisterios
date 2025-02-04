@@ -166,6 +166,13 @@ body {
   border-color: var(--color-primary);
 }
 
+/* Textinho de aviso */
+#aviso{
+  text-align: center;
+  font-style: italic;
+}
+
+
 /* Botão de envio */
 .submit-button {
   background-color: var(--color-primary);
@@ -184,6 +191,7 @@ body {
   transform: translateY(-2px);
   box-shadow: var(--shadow-sm);
 }
+
 
 /* Responsividade */
 @media (max-width: 768px) {
